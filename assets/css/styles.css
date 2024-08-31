@@ -31,7 +31,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #e9e9e9;
+    border-bottom: 1px solid #E8EBE4;
     align-items: center;
     padding: 10px 25px;
 }
@@ -49,27 +49,28 @@ body {
 .usuario .imagen-nombre img {
     border-radius: 50%;
     margin-right: 10px;
+    border: 1px solid #D4DCFF;
 }
 
 .usuario .imagen-nombre div {
     display: flex;
     flex-direction: column;
-    color: #585b5a;
-    font-size: 15px;
+    color: #1B1F21;
+    font-size: 16px;
 }
 
 .usuario .imagen-nombre div span {
-    color: #b8b8b8;
-    font-size: 13px;
+    color: #828485;
+    font-size: 10px;
 }
 
 .usuario .imagen-nombre div span.mensaje {
-    color: #585b5a;
+    color: #444749;
     font-size: 14px;
 }
 
 .usuario .iconos {
-    color: #9c9c9c;
+    color: #BEC1BB;
     font-size: 19px;
 }
 
@@ -84,22 +85,31 @@ body {
     align-items: center;
     height: 130px;
     min-height: 130px;
-    border-bottom: 1px solid #e9e9e9;
+    border-bottom: 1px solid #E8EBE4;
 }
 
 .nuevo-chat button {
-    background-color: #a092cd;
+    background-color: #A491D2;
     color: white;
     appearance: none;
     border: none;
     padding: 15px 45px;
     width: 70%;
     min-width: 215px;
+    font-size: 16px;
     cursor: pointer;
 }
 
-/** Sección principal **/
+.nuevo-chat button:hover {
+    background-color: #CDC3E6;
+}
 
+.nuevo-chat button:focus {
+    background-color: #BEC1BB;
+}
+
+
+/** Sección principal **/
 .principal {
     background: #f8f8f8;
     height: 100%;
@@ -115,6 +125,7 @@ body {
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 10px;
+    font-size: 45px;
 }
 
 .principal p {

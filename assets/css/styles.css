@@ -49,7 +49,7 @@ body {
 .usuario .imagen-nombre img {
     border-radius: 50%;
     margin-right: 10px;
-    border: 1px solid #D4DCFF;
+    border: 2px solid #E8EBE4;
 }
 
 .usuario .imagen-nombre div {
